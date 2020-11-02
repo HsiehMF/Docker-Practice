@@ -1,4 +1,4 @@
-docker build -t nginx:demo -f Dockerfile .
+docker build -t test:demo -f Dockerfile .
 docker run -itd --rm --name test -p 3000:3000 test:demo
 sleep 1
 echo run test!
